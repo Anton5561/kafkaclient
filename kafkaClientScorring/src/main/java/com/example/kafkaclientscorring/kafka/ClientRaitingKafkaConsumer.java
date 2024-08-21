@@ -27,6 +27,7 @@ public class ClientRaitingKafkaConsumer {
 
 
     @KafkaListener(topics = "#{'${spring.kafka.topic.push}'.split(', ')}", groupId = "group_id")
+    //добавил в девелоп
     //@KafkaListener(topics = "#{'${spring.kafka.topic.push}'.split(', ')}", groupId = "volk")
 
     //@KafkaListener(topics = "client_push_scorring", groupId = "group_id")
